@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo apt-get install nodejs
-sudo apt-get install npm
+sudo apt-get -y install nodejs
+sudo apt-get -y install npm
 sudo npm install -g --unsafe-perm node-red
 
 echo running node-red 
