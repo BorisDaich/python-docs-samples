@@ -1,4 +1,7 @@
 #!/bin/bash
+sudo apt-get install nodejs
+sudo apt-get install npm
+sudo npm install -g --unsafe-perm node-red
 
 echo running node-red 
 node-red > /var/log/node-red.log 2>&1 &
